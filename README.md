@@ -12,6 +12,7 @@ Wappbot is a cleverbot connecting with whatsapp through the yowsup.
 
 later...
 
+### Made with love in Colombia.
 # License:
 
 Wappbot is licensed under the GPLv3: http://www.gnu.org/licenses/gpl-3.0.html. 
