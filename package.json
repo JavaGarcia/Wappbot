@@ -1,0 +1,23 @@
+{
+  "name": "Wappbot",
+  "version": "0.1.0",
+  "description": "",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/JavaGarcia/Wappbot.git"
+  },
+  "keywords": [
+    "cleverbot",
+    "whatsapp",
+    "yowsup"
+  ],
+  "author": "JavaGarcia",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/JavaGarcia/Wappbot/issues"
+  },
+  "dependencies": {
+    "html-entities": "~1.1.2"
+  }
+}
