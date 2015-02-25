@@ -4,28 +4,35 @@ If you feel alone and sad, Wappbot is the solution, he will be your best friend 
 Wappbot-public: 573174712237 (add me <WhatsApp contact>, I am hot)
 ```
 ##How work this shit?
-Wappbot is a cleverbot connecting with whatsapp through the yowsup.
-
+Wappbot is a cleverbot connecting with whatsapp through of [yowsup][1].
+[1]:https://github.com/tgalal/yowsup
 <img src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t34.0-12/11008897_10206465163571731_2079930360_n.jpg?oh=dcbe5a47d3cac493e705fbb0a68373d5&oe=54EF863D&__gda__=1424985324_f961e6ef696e0153df1475e37723abfc" />
 
 ## Do you want run this in your toaster?
-Install
+#####1. Requires
+ - python2.6+, or python3.0+
+ - nodejs 0.10+
+ -  2 beers.
+ 
+ 
+
+#####2. Install
 ```sh
 $ git clone https://github.com/JavaGarcia/Wappbot.git
 $ cd Wappbot
 $ sudo python setup.py install
 $ npm install
 ```
-Register number
+#####3. Register number
 ```sh
 $ yowsup-cli registration --requestcode sms --phone [codeCountryNumberphone] --cc [codeCountry] --mcc [mobileCountryCode] --mnc [networkCountryCode]
 $ yowsup-cli registration --register [xxx-xxx] --phone [codeCountryNumberphone] --cc [codeCountry]
 ```
-Edit file config and put the values such: code country, number and password (look the example)
+#####4. Edit file config and put the values such: code country, number and password (look the example)
 ```sh
 nano config
 ```
-let's go!
+#####5. Let's go!
 ```sh
 node app.js
 ```
