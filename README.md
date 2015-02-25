@@ -1,7 +1,7 @@
 # Wappbot
 If you feel alone and sad, Wappbot is the solution, he will be your best friend just need to add him to your whatsapp.
  ```sh
-Wappbot-public: 573174712237 (add me, I am hot)
+Wappbot-public: 573174712237 (add me <WhatsApp contact>, I am hot)
 ```
 ##How work this shit?
 Wappbot is a cleverbot connecting with whatsapp through the yowsup.
