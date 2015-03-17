@@ -6,7 +6,7 @@ Wappbot-public: 573174712237 (add me <WhatsApp contact>, I am hot)
 ##How does this shit work?
 Wappbot is a cleverbot connecting with whatsapp through of [yowsup][1].
 [1]:https://github.com/tgalal/yowsup
-<img src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t34.0-12/11008897_10206465163571731_2079930360_n.jpg?oh=dcbe5a47d3cac493e705fbb0a68373d5&oe=54EF863D&__gda__=1424985324_f961e6ef696e0153df1475e37723abfc" />
+<img src="http://2.bp.blogspot.com/-dxX69Nuak4A/VQed01vEELI/AAAAAAAAAO8/jCVJKubSIJ4/s1600/Screen%2BShot%2B2015-03-16%2Bat%2B10.22.05%2BPM.png" />
 
 ## Do you want to run this in your toaster?
 #####1. Requires
