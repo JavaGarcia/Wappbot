@@ -20,7 +20,8 @@ Wappbot is a cleverbot connecting with whatsapp through of [yowsup][1].
 ```sh
 $ git clone https://github.com/JavaGarcia/Wappbot.git
 $ cd Wappbot
-$ sudo python setup.py install
+$ git clone https://github.com/tgalal/yowsup.git
+$ sudo python yowsup/setup.py install
 $ npm install
 ```
 #####3. Register number
@@ -28,9 +29,14 @@ $ npm install
 $ yowsup-cli registration --requestcode sms --phone [codeCountryNumberphone] --cc [codeCountry] --mcc [mobileCountryCode] --mnc [networkCountryCode]
 $ yowsup-cli registration --register [xxx-xxx] --phone [codeCountryNumberphone] --cc [codeCountry]
 ```
-#####4. Edit file config and put the values such: code country, number and password (look the example)
+#####4. Edit file config and put the values such: code country, number phone, password and set photo/status of profile (look the example)
+config file
 ```sh
-nano config
+cc= 57
+phone= 57xxxxxxxx
+password=
+photo = /path/photo.jpg
+status = Hello MOTHERFUCKERS, this is Wappbot
 ```
 #####5. Let's go!
 ```sh
@@ -39,7 +45,7 @@ node app.js
 
 
 
-### Made with love in Colombia.
+### Made with :heart: in Colombia.
 # License:
 
 Wappbot is licensed under the GPLv3: http://www.gnu.org/licenses/gpl-3.0.html. 
