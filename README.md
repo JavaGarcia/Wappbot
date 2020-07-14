@@ -6,7 +6,7 @@ If you feel alone and sad, Wappbot is the solution, he will be your best friend 
  ```sh
 Wappbot-public: +57 3174712237 (add me <WhatsApp contact list>)
 ```
-##How does this shit work?
+## How does this shit work?
 Wappbot is a cleverbot connecting with whatsapp through of [yowsup][1].
 [1]:https://github.com/tgalal/yowsup
 <img src="http://2.bp.blogspot.com/-dxX69Nuak4A/VQed01vEELI/AAAAAAAAAO8/jCVJKubSIJ4/s1600/Screen%2BShot%2B2015-03-16%2Bat%2B10.22.05%2BPM.png" />
@@ -19,7 +19,7 @@ Wappbot is a cleverbot connecting with whatsapp through of [yowsup][1].
  
  
 
-#####2. Install
+##### 2. Install
 ```sh
 $ git clone https://github.com/JavaGarcia/Wappbot.git
 $ cd Wappbot
@@ -27,12 +27,12 @@ $ git clone https://github.com/tgalal/yowsup.git
 $ sudo python yowsup/setup.py install
 $ npm install
 ```
-#####3. Register number
+##### 3. Register number
 ```sh
 $ yowsup-cli registration --requestcode sms --phone [codeCountryNumberphone] --cc [codeCountry] --mcc [mobileCountryCode] --mnc [networkCountryCode]
 $ yowsup-cli registration --register [xxx-xxx] --phone [codeCountryNumberphone] --cc [codeCountry]
 ```
-#####4. Edit file config and put the values such: code country, number phone, password and set photo/status of profile (look the example)
+##### 4. Edit file config and put the values such: code country, number phone, password and set photo/status of profile (look the example)
 config file
 ```sh
 cc= 57
@@ -41,7 +41,7 @@ password=
 photo = /path/photo.jpg
 status = Hello MOTHERFUCKERS, this is Wappbot
 ```
-#####5. Let's go!
+##### 5. Let's go!
 ```sh
 node app.js
 ```
